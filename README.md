@@ -172,6 +172,7 @@ bash sft/sft_qwen_1.5b.sh mmlu       # MMLU
 - `transformers==4.48.0`
 - `tqdm`
 - `numpy`
+- `peft==0.12.0`
 
 ## License
 
