@@ -157,7 +157,6 @@ bash sft/sft_qwen_1.5b.sh mmlu       # MMLU
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | `--use_freeze` | 1: CNL enabled, 0: CNL disabled | 1 |
-| `--lr` | Learning rate | Model-specific |
 | `--epochs` | Number of training epochs | 25 |
 
 ## Experimental Environment
@@ -170,10 +169,10 @@ bash sft/sft_qwen_1.5b.sh mmlu       # MMLU
 
 - `torch==2.2.0`
 - `transformers==4.48.0`
-- `tqdm`
-- `numpy`
+- `tqdm==4.67.1`
+- `numpy==2.2.6`
 - `peft==0.12.0`
 
 ## License
 
-MIT License
+ Apache-2.0 license
