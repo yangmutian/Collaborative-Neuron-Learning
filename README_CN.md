@@ -157,7 +157,6 @@ bash sft/sft_qwen_1.5b.sh mmlu       # MMLU
 | 参数 | 说明 | 默认值 |
 |------|------|--------|
 | `--use_freeze` | 1: 启用 CNL，0: 禁用 CNL | 1 |
-| `--lr` | 学习率 | 视模型而定 |
 | `--epochs` | 训练轮数 | 25 |
 
 ## 实验环境
@@ -170,9 +169,10 @@ bash sft/sft_qwen_1.5b.sh mmlu       # MMLU
 
 - `torch==2.2.0`
 - `transformers==4.48.0`
-- `tqdm`
-- `numpy`
+- `tqdm==4.67.1`
+- `numpy==2.2.6`
+- `peft==0.12.0`
 
-## 许可证
+## License
 
-MIT License
+ Apache-2.0 license
